@@ -142,4 +142,4 @@ jobs:
       ######## Jest Test ########     
       - name: SonarCloud Scan
         #run: mvn -B sonar:sonar -Dsonar.host.url=http://3.143.240.138:9000 -Dsonar.projectKey=simple-java-maven-app  
-        run: mvn -B sonar:sonar -Dsonar.projectKey=MavenDemo -Dsonar.host.url=http://3.143.240.138:9000 -Dsonar.login=c9566aabdf84dc48f62c9aa84bbcac7c715df76e
+        run: mvn -B sonar:sonar -Dsonar.projectKey=TestApp -Dsonar.host.url=http://3.143.240.138:9000 -Dsonar.login=c9566aabdf84dc48f62c9aa84bbcac7c715df76e
